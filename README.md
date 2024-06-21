@@ -57,3 +57,10 @@ Mark the test with the parameterize mark
 def test_multiple_square_areas(side_length, expected_area):
     assert shapes.Square(side_length).area() == expected_area
 ```
+
+### Mocking
+Unittest is included as part of pytest. So you can do:
+```python
+import unittest.mock as mock
+
+```
